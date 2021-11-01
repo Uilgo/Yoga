@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(20, 19, 52, 1) 100%, rgba(89, 89, 112, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    width: 375px;
+    height: 912px;
+    margin: 20px auto 20px;
+    background-color: #e5e5e5;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-yoga {
+    display: block;
+    margin: 195px auto 122px auto;
+}
+
+input {
+    width: 321px;
+    height: 46px;
+    background: #f7f7f7;
+    box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    border: none;
+    margin: 0px auto;
+    display: block;
+    padding-left: 19px;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #969696;
+}
+
+.input-pass {
+    margin-top: 21px;
+}
+
+.forgot-pass {
+    display: block;
+    margin: 35px 30px 38px 0;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.forgot-pass:hover {
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background: #323232;
+    box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    width: 133px;
+    height: 46px;
+    color: #ffffff;
+}
+
+.link-signup {
+    display: block;
+    margin-top: 21px;
+    margin-bottom: 62px;
+    text-align: center;
+    color: #969696;
+}
+
+strong {
+    color: #323232;
+}
+
+p {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+    margin: 18px auto 80px auto;
+}
+
+.img-link {
+    margin: 0 18px;
+}
